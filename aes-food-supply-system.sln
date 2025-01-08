@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C96B1CAF-0FD7-43D8-90A0-CAC2A5BD8702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{7EFEEB47-D023-43CB-A1E9-48A8BF78A05C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB", "DB", "{99483446-7901-4B22-BB46-D4888971FA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{4885C982-EE67-4A1A-9C89-6D733D531CC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{07586ED9-908D-4F07-BEBA-C74DA80AE8BF}"
+	ProjectSection(SolutionItems) = preProject
+		..\DB\Screenshot_1.png = ..\DB\Screenshot_1.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F00D9914-6B41-42CE-8F20-81657600433E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EFEEB47-D023-43CB-A1E9-48A8BF78A05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFEEB47-D023-43CB-A1E9-48A8BF78A05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFEEB47-D023-43CB-A1E9-48A8BF78A05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFEEB47-D023-43CB-A1E9-48A8BF78A05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4885C982-EE67-4A1A-9C89-6D733D531CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4885C982-EE67-4A1A-9C89-6D733D531CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4885C982-EE67-4A1A-9C89-6D733D531CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4885C982-EE67-4A1A-9C89-6D733D531CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EFEEB47-D023-43CB-A1E9-48A8BF78A05C} = {C96B1CAF-0FD7-43D8-90A0-CAC2A5BD8702}
+		{99483446-7901-4B22-BB46-D4888971FA6E} = {C96B1CAF-0FD7-43D8-90A0-CAC2A5BD8702}
+		{4885C982-EE67-4A1A-9C89-6D733D531CC2} = {C96B1CAF-0FD7-43D8-90A0-CAC2A5BD8702}
+		{07586ED9-908D-4F07-BEBA-C74DA80AE8BF} = {99483446-7901-4B22-BB46-D4888971FA6E}
+		{F00D9914-6B41-42CE-8F20-81657600433E} = {99483446-7901-4B22-BB46-D4888971FA6E}
+	EndGlobalSection
+EndGlobal
